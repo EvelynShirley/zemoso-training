@@ -1,0 +1,15 @@
+books=[];
+answer=prompt("Whats your favorite book?");
+books.push(answer);
+answer=prompt("Whats your favorite book?");
+books.push(answer);
+answer=prompt("Whats your favorite book?");
+books.push(answer);
+answer=prompt("Whats your favorite book?");
+books.push(answer);
+answer=prompt("Whats your favorite book?");
+books.push(answer);
+answer=prompt("Whats your favorite book?");
+books.unshift(answer);
+books.pop();
+console.log(books);
